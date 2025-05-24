@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect } from 'react';
-import Head from 'next/head';
 import Script from 'next/script';
 
 export default function Home() {
@@ -440,32 +439,32 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Testimonial 1 */}
             <div className="bg-white rounded-lg shadow-lg p-8 relative">
-              <div className="absolute top-0 right-0 -mt-5 -mr-5 text-6xl primary-color opacity-20">"</div>
+              <div className="absolute top-0 right-0 -mt-5 -mr-5 text-6xl primary-color opacity-20">&quot;</div>
               <div className="mb-6">
                 <h4 className="text-xl font-bold secondary-color">فاطمة الخالد</h4>
                 <p className="primary-color">مديرة تنفيذية</p>
               </div>
-              <p className="text-lg">"الاهتمام بالتفاصيل والخدمة الشخصية تجاوزت توقعاتي. فستان زفافي كان مثاليًا تمامًا وجعلني أشعر كالملكة في يومي الخاص."</p>
+              <p className="text-lg">&quot;الاهتمام بالتفاصيل والخدمة الشخصية تجاوزت توقعاتي. فستان زفافي كان مثاليًا تمامًا وجعلني أشعر كالملكة في يومي الخاص.&quot;</p>
             </div>
             
             {/* Testimonial 2 */}
             <div className="bg-white rounded-lg shadow-lg p-8 relative">
-              <div className="absolute top-0 right-0 -mt-5 -mr-5 text-6xl primary-color opacity-20">"</div>
+              <div className="absolute top-0 right-0 -mt-5 -mr-5 text-6xl primary-color opacity-20">&quot;</div>
               <div className="mb-6">
                 <h4 className="text-xl font-bold secondary-color">نورة الأحمد</h4>
                 <p className="primary-color">عميلة دائمة</p>
               </div>
-              <p className="text-lg">"كنت بحاجة إلى زي فريد لمؤتمر عمل مهم. لم يقوموا بإنشاء تصميم مذهل فحسب، بل قدموا أيضًا نصائح للتنسيق ساعدتني على ترك انطباع دائم."</p>
+              <p className="text-lg">&quot;كنت بحاجة إلى زي فريد لمؤتمر عمل مهم. لم يقوموا بإنشاء تصميم مذهل فحسب، بل قدموا أيضًا نصائح للتنسيق ساعدتني على ترك انطباع دائم.&quot;</p>
             </div>
             
             {/* Testimonial 3 */}
             <div className="bg-white rounded-lg shadow-lg p-8 relative">
-              <div className="absolute top-0 right-0 -mt-5 -mr-5 text-6xl primary-color opacity-20">"</div>
+              <div className="absolute top-0 right-0 -mt-5 -mr-5 text-6xl primary-color opacity-20">&quot;</div>
               <div className="mb-6">
                 <h4 className="text-xl font-bold secondary-color">سارة الحسن</h4>
                 <p className="primary-color">رائدة أعمال</p>
               </div>
-              <p className="text-lg">"أنا عميلة منذ أكثر من عامين، ولا أثق بأي شخص آخر بملابسي. جودة وتناسب كل قطعة استثنائية بشكل متسق. قدرتهم على فهم أسلوبي لا مثيل لها في الكويت."</p>
+              <p className="text-lg">&quot;أنا عميلة منذ أكثر من عامين، ولا أثق بأي شخص آخر بملابسي. جودة وتناسب كل قطعة استثنائية بشكل متسق. قدرتهم على فهم أسلوبي لا مثيل لها في الكويت.&quot;</p>
             </div>
           </div>
         </div>
